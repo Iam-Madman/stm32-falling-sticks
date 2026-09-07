@@ -5,10 +5,10 @@ A DIY reaction-based "falling sticks" game controller built around an STM32 Blue
 ## Features
 
 - **STM32 Bluepill** as the main controller
-- **10x electromagnet drivers** — MOSFET-switched, each with a flyback protection diode and pulldown resistor
-- **10x Hall effect sensors** for stick drop/position detection
+- **10x electromagnet drivers (12v)** — MOSFET-switched, each with a flyback protection diode and pulldown resistor
+- **10x Hall effect sensors (5v)** for stick drop/position detection
 - **LCD output** support for game status/score
-- **12V buzzer** support, driven off the same MOSFET channels as the electromagnets
+- **Buzzer (12v)** support, driven off the same MOSFET channels as the electromagnets
 - **Start button** input to trigger the game
 - **Single-layer PCB** — 0-ohm jumper resistors used in place of vias/second layer for a few connections
 - **CNC-mill optimized** trace layout (tested on a Wegstr 3-axis CNC)
