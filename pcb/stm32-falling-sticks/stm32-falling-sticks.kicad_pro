@@ -563,6 +563,7 @@
       "netlist": "",
       "plot": "../gerber_and_drill/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -685,7 +686,7 @@
         "uuid": "c41d1642-84ab-41c3-a0d9-b46b2c6bad5e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR44,#PWR55",
     "variants": []
   },
   "sheets": [
