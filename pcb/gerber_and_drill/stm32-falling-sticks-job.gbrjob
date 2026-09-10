@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "10.0.6"
+      "Version": "10.0.3"
     },
-    "CreationDate": "2026-09-09T15:20:30+05:30"
+    "CreationDate": "2026-09-10T10:35:36+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -39,18 +39,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "stm32-falling-sticks-B_Cu.gbr",
-      "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "stm32-falling-sticks-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "stm32-falling-sticks-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
