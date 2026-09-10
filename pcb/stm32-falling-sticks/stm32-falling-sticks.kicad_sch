@@ -7836,86 +7836,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 24.13 134.62 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "097a3ad8-27bc-49dd-a358-f24f37d4ad07")
-		(property "Reference" "#PWR055"
-			(at 27.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 20.32 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 24.13 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "58054042-5537-42dc-9f50-447efd911607")
-		)
-		(instances
-			(project "stm32-falling-sticks"
-				(path "/c41d1642-84ab-41c3-a0d9-b46b2c6bad5e"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 238.76 69.85 0)
 		(unit 1)
@@ -11173,6 +11093,85 @@
 			(project "stm32-falling-sticks"
 				(path "/c41d1642-84ab-41c3-a0d9-b46b2c6bad5e"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 102.87 134.62 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "439a9ddb-5801-4881-a8dd-bdbabc95f5bb")
+		(property "Reference" "#PWR055"
+			(at 99.06 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 106.68 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 102.87 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2948bce4-17ad-4aaa-9455-7fad7f99aaab")
+		)
+		(instances
+			(project "stm32-falling-sticks"
+				(path "/c41d1642-84ab-41c3-a0d9-b46b2c6bad5e"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -14661,9 +14660,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 102.87 134.62 270)
-		(mirror x)
+		(lib_id "power:+12V")
+		(at 24.13 134.62 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14672,9 +14670,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9fb22f57-3e01-4939-b720-75acae52ba45")
+		(uuid "a240e860-c69e-4589-8f4e-6f4aa8f41cc2")
 		(property "Reference" "#PWR044"
-			(at 99.06 134.62 0)
+			(at 27.94 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14684,8 +14682,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 106.68 134.6199 90)
+		(property "Value" "+12V"
+			(at 20.32 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14696,7 +14694,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 134.62 0)
+			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14707,7 +14705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 134.62 0)
+			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14717,8 +14715,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 102.87 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 24.13 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14729,7 +14727,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "771a55d1-12fa-4cb6-884a-e60afda31889")
+			(uuid "1c69e85e-c40b-4708-b844-39dab6eba0df")
 		)
 		(instances
 			(project "stm32-falling-sticks"
